@@ -6,14 +6,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack serve",
-		"build": "webpack"
+		"build": "webpack",
+		"clear": "rd /s /q dist"
 	},
 	"author": "sibir-9k",
 	"license": "ISC",
 	"devDependencies": {
 		"css-loader": "^6.7.3",
+		"file-loader": "^6.2.0",
 		"html-loader": "^4.2.0",
 		"html-webpack-plugin": "^5.5.1",
+		"image-webpack-loader": "^8.1.0",
 		"mini-css-extract-plugin": "^2.7.5",
 		"sass": "^1.62.0",
 		"sass-loader": "^13.2.2",
